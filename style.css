@@ -1,0 +1,14 @@
+/* --- Base Body Styles --- */
+body { 
+    font-family: 'Inter', 'Noto Sans JP', sans-serif; 
+    background-color: #f8f9fa;
+}
+
+/* --- Drag and Drop Area Hover State --- */
+/* This class is added/removed by JavaScript */
+.upload-area.dragover {
+    /* Corresponds to: border-blue-500 bg-blue-50 scale-105 */
+    border-color: #3b82f6;
+    background-color: #eff6ff;
+    transform: scale(1.05);
+}
